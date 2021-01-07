@@ -9,13 +9,25 @@
 /* Begin PBXBuildFile section */
 		597A61F525A793E60052C560 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A61F425A793E60052C560 /* AppDelegate.swift */; };
 		597A61F725A793E60052C560 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A61F625A793E60052C560 /* SceneDelegate.swift */; };
-		597A61F925A793E60052C560 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A61F825A793E60052C560 /* ViewController.swift */; };
+		597A61F925A793E60052C560 /* AVCameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A61F825A793E60052C560 /* AVCameraController.swift */; };
 		597A61FC25A793E60052C560 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 597A61FA25A793E60052C560 /* Main.storyboard */; };
 		597A61FF25A793E60052C560 /* sp0tCamera.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 597A61FD25A793E60052C560 /* sp0tCamera.xcdatamodeld */; };
 		597A620125A793E80052C560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 597A620025A793E80052C560 /* Assets.xcassets */; };
 		597A620425A793E80052C560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 597A620225A793E80052C560 /* LaunchScreen.storyboard */; };
 		597A620F25A793E90052C560 /* sp0tCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A620E25A793E90052C560 /* sp0tCameraTests.swift */; };
 		597A621A25A793E90052C560 /* sp0tCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A621925A793E90052C560 /* sp0tCameraUITests.swift */; };
+		597A623925A7988E0052C560 /* SFCamera-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 597A623825A7988E0052C560 /* SFCamera-Regular.otf */; };
+		597A623A25A7988E0052C560 /* SFCamera-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 597A623825A7988E0052C560 /* SFCamera-Regular.otf */; };
+		597A623B25A7988E0052C560 /* SFCamera-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 597A623825A7988E0052C560 /* SFCamera-Regular.otf */; };
+		597A624325A798A00052C560 /* SFCamera-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 597A624225A798A00052C560 /* SFCamera-Semibold.otf */; };
+		597A624425A798A00052C560 /* SFCamera-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 597A624225A798A00052C560 /* SFCamera-Semibold.otf */; };
+		597A624525A798A00052C560 /* SFCamera-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 597A624225A798A00052C560 /* SFCamera-Semibold.otf */; };
+		597A625025A79AC20052C560 /* AVSpotCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A624F25A79AC20052C560 /* AVSpotCamera.swift */; };
+		597A625125A79AC20052C560 /* AVSpotCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A624F25A79AC20052C560 /* AVSpotCamera.swift */; };
+		597A625225A79AC20052C560 /* AVSpotCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A624F25A79AC20052C560 /* AVSpotCamera.swift */; };
+		597A625725A79DC00052C560 /* GIFPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A625625A79DC00052C560 /* GIFPreviewController.swift */; };
+		597A625825A79DC00052C560 /* GIFPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A625625A79DC00052C560 /* GIFPreviewController.swift */; };
+		597A625925A79DC00052C560 /* GIFPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597A625625A79DC00052C560 /* GIFPreviewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +51,7 @@
 		597A61F125A793E60052C560 /* sp0tCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sp0tCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		597A61F425A793E60052C560 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		597A61F625A793E60052C560 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		597A61F825A793E60052C560 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		597A61F825A793E60052C560 /* AVCameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVCameraController.swift; sourceTree = "<group>"; };
 		597A61FB25A793E60052C560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		597A61FE25A793E60052C560 /* sp0tCamera.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sp0tCamera.xcdatamodel; sourceTree = "<group>"; };
 		597A620025A793E80052C560 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +63,10 @@
 		597A621525A793E90052C560 /* sp0tCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sp0tCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		597A621925A793E90052C560 /* sp0tCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sp0tCameraUITests.swift; sourceTree = "<group>"; };
 		597A621B25A793E90052C560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		597A623825A7988E0052C560 /* SFCamera-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFCamera-Regular.otf"; path = "../../../../Downloads/SFCamera-Regular.otf"; sourceTree = "<group>"; };
+		597A624225A798A00052C560 /* SFCamera-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SFCamera-Semibold.otf"; path = "../../../../Downloads/SFCamera-Semibold.otf"; sourceTree = "<group>"; };
+		597A624F25A79AC20052C560 /* AVSpotCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVSpotCamera.swift; sourceTree = "<group>"; };
+		597A625625A79DC00052C560 /* GIFPreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFPreviewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +117,11 @@
 		597A61F325A793E60052C560 /* sp0tCamera */ = {
 			isa = PBXGroup;
 			children = (
-				597A61F425A793E60052C560 /* AppDelegate.swift */,
-				597A61F625A793E60052C560 /* SceneDelegate.swift */,
-				597A61F825A793E60052C560 /* ViewController.swift */,
-				597A61FA25A793E60052C560 /* Main.storyboard */,
-				597A620025A793E80052C560 /* Assets.xcassets */,
-				597A620225A793E80052C560 /* LaunchScreen.storyboard */,
-				597A620525A793E80052C560 /* Info.plist */,
-				597A61FD25A793E60052C560 /* sp0tCamera.xcdatamodeld */,
+				597A623725A798670052C560 /* Fonts */,
+				597A623025A7948D0052C560 /* Resources */,
+				597A622F25A794850052C560 /* Controllers */,
+				597A622E25A794810052C560 /* Views */,
+				597A622D25A7947D0052C560 /* Models */,
 			);
 			path = sp0tCamera;
 			sourceTree = "<group>";
@@ -129,6 +142,53 @@
 				597A621B25A793E90052C560 /* Info.plist */,
 			);
 			path = sp0tCameraUITests;
+			sourceTree = "<group>";
+		};
+		597A622D25A7947D0052C560 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		597A622E25A794810052C560 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				597A61FA25A793E60052C560 /* Main.storyboard */,
+				597A620225A793E80052C560 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		597A622F25A794850052C560 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				597A61F425A793E60052C560 /* AppDelegate.swift */,
+				597A61F625A793E60052C560 /* SceneDelegate.swift */,
+				597A61F825A793E60052C560 /* AVCameraController.swift */,
+				597A625625A79DC00052C560 /* GIFPreviewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		597A623025A7948D0052C560 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				597A620025A793E80052C560 /* Assets.xcassets */,
+				597A620525A793E80052C560 /* Info.plist */,
+				597A61FD25A793E60052C560 /* sp0tCamera.xcdatamodeld */,
+				597A624F25A79AC20052C560 /* AVSpotCamera.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		597A623725A798670052C560 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				597A624225A798A00052C560 /* SFCamera-Semibold.otf */,
+				597A623825A7988E0052C560 /* SFCamera-Regular.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +294,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				597A623925A7988E0052C560 /* SFCamera-Regular.otf in Resources */,
 				597A620425A793E80052C560 /* LaunchScreen.storyboard in Resources */,
 				597A620125A793E80052C560 /* Assets.xcassets in Resources */,
+				597A624325A798A00052C560 /* SFCamera-Semibold.otf in Resources */,
 				597A61FC25A793E60052C560 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,6 +306,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				597A624425A798A00052C560 /* SFCamera-Semibold.otf in Resources */,
+				597A623A25A7988E0052C560 /* SFCamera-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +315,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				597A624525A798A00052C560 /* SFCamera-Semibold.otf in Resources */,
+				597A623B25A7988E0052C560 /* SFCamera-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +327,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				597A61F925A793E60052C560 /* ViewController.swift in Sources */,
+				597A61F925A793E60052C560 /* AVCameraController.swift in Sources */,
 				597A61F525A793E60052C560 /* AppDelegate.swift in Sources */,
+				597A625025A79AC20052C560 /* AVSpotCamera.swift in Sources */,
+				597A625725A79DC00052C560 /* GIFPreviewController.swift in Sources */,
 				597A61F725A793E60052C560 /* SceneDelegate.swift in Sources */,
 				597A61FF25A793E60052C560 /* sp0tCamera.xcdatamodeld in Sources */,
 			);
@@ -272,7 +340,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				597A625825A79DC00052C560 /* GIFPreviewController.swift in Sources */,
 				597A620F25A793E90052C560 /* sp0tCameraTests.swift in Sources */,
+				597A625125A79AC20052C560 /* AVSpotCamera.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +350,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				597A625925A79DC00052C560 /* GIFPreviewController.swift in Sources */,
 				597A621A25A793E90052C560 /* sp0tCameraUITests.swift in Sources */,
+				597A625225A79AC20052C560 /* AVSpotCamera.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,11 +513,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = sp0tCamera/Info.plist;
+				DEVELOPMENT_TEAM = H5355TZ8Q3;
+				INFOPLIST_FILE = /Users/kbarone/Documents/sp0tCamera/sp0tCamera/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = idk.sp0tCamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -459,11 +533,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = sp0tCamera/Info.plist;
+				DEVELOPMENT_TEAM = H5355TZ8Q3;
+				INFOPLIST_FILE = /Users/kbarone/Documents/sp0tCamera/sp0tCamera/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = idk.sp0tCamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
